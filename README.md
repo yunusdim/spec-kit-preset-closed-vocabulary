@@ -67,6 +67,17 @@ defect, or may be two legitimately different sets that share a name. The pass ca
 tell those apart, and halting work on something that needs human judgement costs more
 than it saves.
 
+## Install
+
+```
+specify preset install closed-vocabulary
+```
+
+Requires spec-kit `>=0.8.0` — composition strategies (`prepend`, `append`, `wrap`)
+landed there ([#2133](https://github.com/github/spec-kit/pull/2133)). On anything
+older the `append` strategy is unavailable and the preset would replace the core
+command instead of extending it.
+
 ## Shape
 
 Uses `strategy: "append"`. It carries no copy of `templates/commands/analyze.md`, so
