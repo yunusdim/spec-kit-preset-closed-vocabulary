@@ -10,7 +10,7 @@ Requested in [github/spec-kit#4106](https://github.com/github/spec-kit/issues/41
 ## Install
 
 ```bash
-specify preset add --from https://github.com/yunusdim/spec-kit-preset-closed-vocabulary/archive/refs/tags/v1.0.0.zip
+specify preset add --from https://github.com/yunusdim/spec-kit-preset-closed-vocabulary/archive/refs/tags/v1.0.1.zip
 ```
 
 Requires spec-kit with preset composition strategies.
